@@ -1,0 +1,25 @@
+/* TABLET VIEW */
+@media (min-width: 768px;) and (max-width: 991px) {
+	div {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+}
+
+/* PHONE VIEW */
+@media (max-width: 767px) {
+	/*maybe change this to more of a list format for super thin displays/phones?*/
+	div {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+}
+
+/* DESKTOP VIEW */
+div {
+  box-sizing: border-box;
+  width: 30%;
+  float: left;
+}
