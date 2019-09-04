@@ -1,25 +1,78 @@
+/* DESKTOP VIEW */
+body {
+  margin: 0px; 
+}
+h1 {
+  text-align: center;
+}
+div.text {
+  box-sizing: border-box;
+  width: 31%;
+  max-height: 180px;
+  overflow: hidden;
+  margin:1.166%;
+  float: left;
+  border: 1px solid black;
+  background-color: lightgray;
+  
+}
+div.label { 
+  box-sizing: border-box;
+  width: 120px;
+  float: right;
+  display: block;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  padding: 40px 10px 10px 10px;
+  margin: 0px;
+}
+
+#chicken {
+  background-color: #FFBDCC;
+}
+#beef {
+  background-color: #CB333C;
+  color: white;
+}
+#sushi {
+  background-color: #FFF083;
+}
+
 /* TABLET VIEW */
-@media (min-width: 768px;) and (max-width: 991px) {
-	div {
+@media (min-width: 768px) and (max-width: 991px) {
+	#div1 {
     box-sizing: border-box;
-    width: 50%;
+    width: 47.75%;
+    margin: 1.5% 0.75% 0% 1.5%;
     float: left;
+  }
+
+  #div2 {
+    box-sizing: border-box;
+    width: 47.75%;
+    margin: 1.5% 1.5% 0% 0.75%;
+    float: right;
+  }
+  
+  #div3 {
+    width: 97%;
+    margin: 1.5%;
   }
 }
 
 /* PHONE VIEW */
 @media (max-width: 767px) {
-	/*maybe change this to more of a list format for super thin displays/phones?*/
-	div {
+	div.text {
     box-sizing: border-box;
-    width: 100%;
+    width: 97%;
+    margin: 1.5% 1.5% 0% 1.5%;
     float: left;
   }
 }
 
-/* DESKTOP VIEW */
-div {
-  box-sizing: border-box;
-  width: 30%;
-  float: left;
-}
